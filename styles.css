@@ -1,0 +1,11 @@
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
