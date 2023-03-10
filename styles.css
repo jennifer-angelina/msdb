@@ -1,11 +1,73 @@
-.poppins {
-    font-family: 'Poppins', sans-serif;
+body {
+  background: #e35d6a;
+}
+
+.navbar-brand {
+  font-family: "poppins";
+}
+
+.nav-item {
+  font-family: "poppins";
+  font-size: 0.9rem;
 }
 
 .nav-link:hover {
-    color: white !important;
+  color: white !important;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none;
+  box-shadow: none;
+}
+
+.genre {
+  font-family: "dm sans";
+}
+
+img {
+  width: 95%;
+  border-radius: 5px;
+}
+
+.slick-slider {
+  margin-top: 0.5rem;
+  margin-left: -2.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.slick-list {
+  padding: 0 2.5rem 0 2.5rem;
+}
+
+.slick-prev {
+  left: 2.25rem;
+  z-index: 1;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.slick-next {
+  right: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.slick-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+h5 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: white;
+}
+
+.slick-prev, .slick-next{
+  z-index: 1;
+  opacity: 0;
+  transition: .5s all;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  opacity: 1;
 }
