@@ -67,7 +67,7 @@ body {
     -0.025em 0.04em white,
     0.04em -0.04em white,
     0.04em 0.04em white;
-  font-family: "dm sans";
+  font-family: "poppins";
   font-size: 2.5vh;
   letter-spacing: 3px;
   word-spacing: 2px;
@@ -75,9 +75,12 @@ body {
 
 .genre {
   font-family: "dm sans";
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: white;
 }
 
-img {
+.subitem {
   border-radius: 5px;
   width: 95%;
 }
@@ -108,13 +111,6 @@ img {
 .slick-disabled {
   opacity: 0;
   pointer-events: none;
-}
-
-h5 {
-  margin-top: 1rem;
-  margin-left: 2rem;
-  color: white;
-  text-shadow: 0.1em 0.15em 0.125em #dc3545;
 }
 
 .slick-prev, .slick-next{
