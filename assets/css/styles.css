@@ -32,31 +32,6 @@ body {
   background-size: cover;
 }
 
-.paragraph1 {
-  position:absolute;
-  top: 44%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'poppins';
-  font-size: 0.8rem;
-}
-
-.paragraph2 {
-  position: absolute;
-  top: 57.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'dm sans';
-}
-
-.paragraph3 {
-  position: absolute;
-  top: 61%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'dm sans';
-}
-
 .header-heading {
   position: absolute;
   top: 50%;
@@ -64,6 +39,38 @@ body {
   transform: translate(-50%, -50%);
   font-family: 'poppins';
   color: #dc3545;
+  text-shadow:
+    0.04em 0 white,
+    0 0.04em white,
+    -0.04em 0 white,
+    0 -0.04em white,
+    -0.04em -0.04em white,
+    -0.025em 0.04em white,
+    0.04em -0.04em white,
+    0.04em 0.04em white;
+  font-size: 10vh;
+}
+
+.subheading {
+  position: absolute;
+  margin-top: 41vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  color: black;
+  text-shadow:
+    0.04em 0 white,
+    0 0.04em white,
+    -0.04em 0 white,
+    0 -0.04em white,
+    -0.04em -0.04em white,
+    -0.025em 0.04em white,
+    0.04em -0.04em white,
+    0.04em 0.04em white;
+  font-family: "dm sans";
+  font-size: 2.5vh;
+  letter-spacing: 3px;
+  word-spacing: 2px;
 }
 
 .genre {
@@ -71,8 +78,8 @@ body {
 }
 
 img {
-  width: 11vw;
   border-radius: 5px;
+  width: 95%;
 }
 
 .slick-slider {
@@ -107,7 +114,7 @@ h5 {
   margin-top: 1rem;
   margin-left: 2rem;
   color: white;
-  text-shadow: 2px 4px 3px #dc3545;
+  text-shadow: 0.1em 0.15em 0.125em #dc3545;
 }
 
 .slick-prev, .slick-next{
@@ -118,4 +125,13 @@ h5 {
 
 .slick-prev:hover, .slick-next:hover {
   opacity: 1;
+}
+
+.copyright {
+  font-family: "Calibri";
+}
+
+.footer {
+  font-family: "poppins";
+  text-decoration: none;
 }
