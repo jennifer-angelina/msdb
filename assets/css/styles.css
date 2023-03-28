@@ -39,15 +39,6 @@ body {
   transform: translate(-50%, -50%);
   font-family: 'poppins';
   color: #dc3545;
-  text-shadow:
-    0.04em 0 white,
-    0 0.04em white,
-    -0.04em 0 white,
-    0 -0.04em white,
-    -0.04em -0.04em white,
-    -0.025em 0.04em white,
-    0.04em -0.04em white,
-    0.04em 0.04em white;
   font-size: 10vh;
 }
 
@@ -58,15 +49,6 @@ body {
   transform: translate(-50%, -50%);
   white-space: nowrap;
   color: black;
-  text-shadow:
-    0.04em 0 white,
-    0 0.04em white,
-    -0.04em 0 white,
-    0 -0.04em white,
-    -0.04em -0.04em white,
-    -0.025em 0.04em white,
-    0.04em -0.04em white,
-    0.04em 0.04em white;
   font-family: "poppins";
   font-size: 2.5vh;
   letter-spacing: 3px;
@@ -130,4 +112,48 @@ body {
 .footer {
   font-family: "poppins";
   text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 1;
+}
+
+::-moz-selection {
+  color: white;
+  background: #ea868f;
+}
+
+::selection {
+  color: white;
+  background: #ea868f;
+}
+
+.title {
+  font-family: "dm sans";
+  margin-top: 1rem;
+  color: white;
+}
+
+.rating {
+  color: white;
+}
+
+.genres {
+  color: white;
+  margin: 0.25vw;
+  border: 1px solid white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 25px;
+  font-weight: 400;
+}
+
+.overview {
+  color: white;
+  margin: auto 25vw;
+}
+
+.year {
+  color: white;
+  font-weight: 400;
 }

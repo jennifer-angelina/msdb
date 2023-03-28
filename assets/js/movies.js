@@ -1,7 +1,7 @@
 // slick
 $('.slider').slick({
-  slidesToShow: 9,
-  slidesToScroll: 9,
+  slidesToShow: 8,
+  slidesToScroll: 8,
   infinite: false,
   lazyLoad: "progressive",
   arrows: true,
@@ -83,7 +83,9 @@ function showMovies(data, genre) {
   for (i = 0; i < data.length; i++) {
       movie = `
       <li>
-        <img src="${IMG_URL + data[i].poster_path}" class="subitem">
+        <a href="../html/movie_details.html?id=${data[i].id}">
+          <img src="${IMG_URL + data[i].poster_path}" class="subitem">
+        </a>
       </li>`;
       genre.slick("slickAdd", movie);
   }
