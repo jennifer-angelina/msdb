@@ -50,7 +50,7 @@ body {
   white-space: nowrap;
   color: black;
   font-family: "poppins";
-  font-size: 2.5vh;
+  font-size: 2.25vh;
   letter-spacing: 3px;
   word-spacing: 2px;
 }
@@ -133,27 +133,32 @@ body {
   font-family: "dm sans";
   margin-top: 1rem;
   color: white;
+  font-weight: 700;
 }
 
 .rating {
   color: white;
+  font-family: "Roboto";
 }
 
 .genres {
   color: white;
   margin: 0.25vw;
-  border: 1px solid white;
-  padding: 0.25rem 0.75rem;
+  border: 1px solid #f1aeb5;
+  padding: 0.25rem 0.9rem;
   border-radius: 25px;
-  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 0.9rem;
 }
 
 .overview {
   color: white;
-  margin: auto 25vw;
+  margin: auto 10vw;
+  font-family: "Roboto";
 }
 
 .year {
+  font-family: "dm sans";
   color: white;
   font-weight: 400;
 }
