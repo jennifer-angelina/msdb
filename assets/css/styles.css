@@ -13,7 +13,7 @@ body {
 
 .nav-item {
   font-family: "poppins";
-  font-size: 0.9rem;
+  font-size: 0.875rem;
 }
 
 .nav-link:hover {
@@ -50,16 +50,17 @@ body {
   white-space: nowrap;
   color: black;
   font-family: "poppins";
-  font-size: 2.25vh;
+  font-size: 0.875rem;
   letter-spacing: 3px;
   word-spacing: 2px;
 }
 
 .genre {
-  font-family: "dm sans";
+  font-family: "Roboto";
   margin-top: 1rem;
   margin-left: 2rem;
   color: white;
+  font-weight: 500;
 }
 
 .subitem {
@@ -130,25 +131,31 @@ body {
 }
 
 .title {
-  font-family: "dm sans";
+  font-family: "Roboto";
   margin-top: 1rem;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .rating {
   color: white;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.base_rating {
+  color: #f1aeb5;
   font-family: "Roboto";
 }
 
 .genres {
   color: white;
   margin: 0.25vw;
-  border: 1px solid #f1aeb5;
+  border: 1px solid #f5c2c7;
   padding: 0.25rem 0.9rem;
   border-radius: 25px;
   font-family: "Roboto";
-  font-size: 0.9rem;
+  font-size: 0.875rem;
 }
 
 .overview {
@@ -158,7 +165,7 @@ body {
 }
 
 .year {
-  font-family: "dm sans";
+  font-family: "Roboto";
   color: white;
-  font-weight: 400;
+  font-weight: 500;
 }

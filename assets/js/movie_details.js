@@ -32,7 +32,7 @@ async function getMovie(id) {
 
     // rating
     var rating = data.vote_average;
-    $("#rating").append(rating + " / 10");
+    $("#rating").append(rating);
 
     // genres
     var genre = "";

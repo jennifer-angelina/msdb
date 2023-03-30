@@ -32,7 +32,7 @@ async function getShow(id) {
 
     // rating
     var rating = data.vote_average;
-    $("#rating").append(rating + " / 10");
+    $("#rating").append(rating);
 
     // genres
     var genre = "";
@@ -46,8 +46,9 @@ async function getShow(id) {
     $("#overview").append(overview);
 
     // year
-    var year = data.release_date;
-    year = year.substring(0,4);
+    var first_year = data.first_air_date;
+    var last_year = data.last_air_date;
+    var year = `${first_year.substring(0,4)}–${last_year.substring(0,4)}`;
     $("#year").append(`(${year})`);
     console.log(year);
 }
