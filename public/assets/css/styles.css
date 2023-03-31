@@ -44,7 +44,7 @@ body {
 
 .subheading {
   position: absolute;
-  margin-top: 41vh;
+  margin-top: 5rem;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
