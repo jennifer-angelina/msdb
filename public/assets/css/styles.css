@@ -53,6 +53,7 @@ body {
 .subitem {
   border-radius: 5px;
   width: 95%;
+  background: #dc3545;
 }
 
 .slick-slider {
