@@ -79,7 +79,7 @@ function showShows(data, genre) {
   for (i = 0; i < data.length; i++) {
       show = `
       <li>
-        <a href="../html/show_details.html?id=${data[i].id}">
+        <a href="../../show_details.html?id=${data[i].id}">
          <img src="${IMG_URL + data[i].poster_path}" class="subitem"">
         </a>
       </li>`;

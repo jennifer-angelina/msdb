@@ -83,7 +83,7 @@ function showMovies(data, genre) {
   for (i = 0; i < data.length; i++) {
       movie = `
       <li>
-        <a href="../html/movie_details.html?id=${data[i].id}">
+        <a href="../../movie_details.html?id=${data[i].id}">
           <img src="${IMG_URL + data[i].poster_path}" class="subitem">
         </a>
       </li>`;
